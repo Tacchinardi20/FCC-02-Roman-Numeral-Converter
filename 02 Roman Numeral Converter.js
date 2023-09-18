@@ -1,7 +1,8 @@
 function convertToRoman(num) {
   let romanNumeral = ""
+
   while (num > 0) {
-    //console.log(romanNumeral, num);
+    console.log(romanNumeral, num);
 
     if (num < 4) {
       romanNumeral += "I";
